@@ -1,0 +1,146 @@
+#Title
+{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    padding-top:13px;
+    background-color: rgb(220,220,220);
+}
+
+nav
+{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(200,200,200);
+}
+
+ul{
+    width: 100%;
+    display: inline-flex;
+
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+    flex: 20%;
+    padding-left: 4%;   
+    margin-top: 5px; 
+    
+}
+
+a{
+    color: black;
+    border-color: black;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 18px 30px 20px 30px;
+    background-color: rgb(200,200,200);
+    border-style: solid;
+}
+a:hover{
+    border-color:white;
+    background-color: white;
+    transition:1s;
+}
+.dropdown1 {
+    position: relative;
+    display: block;
+  }
+
+  .dropdown2 {
+    position: relative;
+    display: block;
+  }
+  
+  .dropdown1 .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(220,220,220);
+    margin-top: 20px;
+    width: 135px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0;
+    margin-left: 3px;
+  }
+
+  .dropdown2 .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(220,220,220);
+    margin-top: 20px;
+    width: 135px;
+    height: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0;
+    margin-left: 3px;
+  }
+  
+  .dropdown1:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown2:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown1 span{
+    color: black;
+    border-color: black;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 18px 30px 20px 38px;
+    background-color: rgb(200,200,200);
+    border-style: solid;
+  }
+
+  .dropdown2 span{
+    color: black;
+    border-color: black;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 18px 30px 20px 30px;
+    background-color: rgb(200,200,200);
+    border-style: solid;
+  }
+ .dropdown-content a
+ {
+    display: block;
+    color: black;
+    border-style: none;
+    margin-left: 0px;
+    float: middle;    
+    text-align: center;
+ }
+
+ .title:hover{
+    border-color:white;
+    background-color: white;
+    transition: .5s;
+ }
+
+ #home{
+    height: 600px;
+    background-image: url("Assets/livingRoom.JPG");
+    background-size: cover;
+ }
+
+ #contact{
+   height: 800px;
+   width: 100%;
+   background-color: lightgrey;
+  text-align: center;
+  border-style: double;
+  margin-bottom: 30px;
+ }
+
+ #contact h1 {
+   text-align: center;
+ }
+
+ .sendMessage{
+  margin-top: 30px;
+ }
