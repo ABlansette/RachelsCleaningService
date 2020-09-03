@@ -1,3 +1,6 @@
+body{
+  display: block;
+}
 #Title
 {
     text-align: center;
@@ -58,8 +61,8 @@ a:hover{
     position: absolute;
     background-color: rgb(220,220,220);
     margin-top: 20px;
-    width: 135px;
-    height: 200px;
+    width: 123px;
+    height: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     padding: 0;
@@ -71,7 +74,7 @@ a:hover{
     position: absolute;
     background-color: rgb(220,220,220);
     margin-top: 20px;
-    width: 135px;
+    width: 123px;
     height: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -124,12 +127,14 @@ a:hover{
 
  #home{
     height: 600px;
-    background-image: url("Assets/livingRoom.JPG");
-    background-size: cover;
+    background-image: url("Assets/LivingRoom3.JPG");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
  }
 
  #contact{
-   height: 800px;
+   height: 650px;
    width: 100%;
    background-color: lightgrey;
   text-align: center;
@@ -143,4 +148,50 @@ a:hover{
 
  .sendMessage{
   margin-top: 30px;
+ }
+ #quad
+ {
+    text-align:center;
+    border-style: solid;
+ }
+ #duo
+ {
+    text-align:center;
+    border-style: solid;
+ }
+
+ .sections{
+  display: inline-flex;
+  height: 750px;
+  width: 100%;
+  background-color: white;
+
+ }
+ .livingRoom{
+   flex: 50%;
+   margin-top: 100px;
+   display: block;
+   height:650px;
+   border-style: solid;
+   border-color: black;
+  }
+ .bedroom{
+  flex: 50%;
+  margin-top: 100px;
+  display: block;
+  height:650px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+
+ footer{
+   width: 100%;
+   height: 80px;
+   text-align: center;
+ }
+ h6{
+   text-align: center;
+   font-size: 10px;
  }
