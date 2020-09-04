@@ -7,7 +7,7 @@ body{
     height: 100px;
     width: 100%;
     padding-top:13px;
-    background-color: rgb(220,220,220);
+    background-color: rgb(230,230,230);
 }
 
 nav
@@ -152,39 +152,163 @@ a:hover{
  #quad
  {
     text-align:center;
-    border-style: solid;
  }
  #duo
  {
     text-align:center;
-    border-style: solid;
  }
 
  .sections{
   display: inline-flex;
-  height: 750px;
+  height: 350px;
   width: 100%;
-  background-color: white;
+  background-color: lightgrey;
 
  }
- .livingRoom{
+ #quad h1{
+  background-color: rgb(230,230,230);
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+
+ .livingroom{
    flex: 50%;
-   margin-top: 100px;
    display: block;
-   height:650px;
+   height:350px;
    border-style: solid;
    border-color: black;
+   background-image: url(Assets/LivingRoom3.JPG);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
   }
- .bedroom{
-  flex: 50%;
-  margin-top: 100px;
-  display: block;
-  height:650px;
-  border-style: solid;
-  border-color: black;
-}
 
+  .livingroom h2{
+    border-style: double;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: white;
+  }
 
+  .bedroom h2{
+    border-style: double;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: white;
+  }
+
+  .livingroom ul{
+    display: block;
+    padding-left: 0;
+    list-style-type: circle;
+    text-align: center;
+  }
+  .livingroom ul li{
+    display: block;
+    height: 30px;
+    width: 30%;
+    padding-left: 0;
+    font-size: 20px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  .bedroom{
+    flex: 50%;
+    display: block;
+    height:350px;
+    border-style: solid;
+    border-color: black;
+    background-image: url(Assets/LivingRoom3.JPG);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  #duo h1{
+    background-color: rgb(230,230,230);
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+   
+  .bedroom ul{
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: circle;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .bedroom ul li{
+    display: block;
+    height: 30px;
+    width: 30%;
+    padding-left: 0;
+    font-size: 20px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  .bathroom{
+    width: 100%;
+    display: block;
+    height:350px;
+    border-style: solid;
+    border-color: black;
+    background-image: url(Assets/LivingRoom3.JPG);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  .bedroom h2{
+    border-style: double;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: white;
+  }
+   
+  .bathroom ul{
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: circle;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .bathroom ul li{
+    display: block;
+    height: 30px;
+    width: 30%;
+    padding-left: 0;
+    font-size: 20px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5px;
+  }
 
  footer{
    width: 100%;
