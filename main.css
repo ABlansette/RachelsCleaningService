@@ -7,7 +7,7 @@ body{
     height: 100px;
     width: 100%;
     padding-top:13px;
-    background-color: rgb(230,230,230);
+    background-color: rgb(240,240,240);
 }
 
 nav
@@ -127,19 +127,23 @@ a:hover{
 
  #home{
     height: 600px;
-    background-image: url("Assets/LivingRoom3.JPG");
+    background-image: url("Assets/outside.jpg");
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
  }
 
  #contact{
-   height: 650px;
+   height: 550px;
    width: 100%;
    background-color: lightgrey;
   text-align: center;
-  border-style: double;
   margin-bottom: 30px;
+  margin-top: 0;
+  padding-top: 30px;
+ }
+ #contact p{
+   margin-top: 40px;
  }
 
  #contact h1 {
@@ -168,8 +172,8 @@ a:hover{
  #quad h1{
   background-color: rgb(230,230,230);
   margin: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
  }
 
  .livingroom{
@@ -187,9 +191,9 @@ a:hover{
   .livingroom h2{
     border-style: double;
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 40px;
     color: white;
   }
@@ -197,9 +201,9 @@ a:hover{
   .bedroom h2{
     border-style: double;
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 40px;
     color: white;
   }
@@ -238,8 +242,8 @@ a:hover{
   #duo h1{
     background-color: rgb(230,230,230);
     margin: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
    
   .bedroom ul{
@@ -271,18 +275,18 @@ a:hover{
     height:350px;
     border-style: solid;
     border-color: black;
-    background-image: url(Assets/LivingRoom3.JPG);
+    background-image: url(Assets/bathroom.JPG);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
   }
 
-  .bedroom h2{
+  .bathroom h2{
     border-style: double;
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 40px;
     color: white;
   }
@@ -312,10 +316,13 @@ a:hover{
 
  footer{
    width: 100%;
-   height: 80px;
+   height: 115px;
    text-align: center;
  }
  h6{
    text-align: center;
-   font-size: 10px;
+   font-size: 15px;
+ }
+ html{
+   scroll-behavior: smooth;
  }
