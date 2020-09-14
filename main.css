@@ -31,6 +31,10 @@ li{
     margin-top: 5px; 
     
 }
+.topnav
+{
+  display: none;
+}
 
 a{
     color: black;
@@ -326,3 +330,74 @@ a:hover{
  html{
    scroll-behavior: smooth;
  }
+
+ @media only screen and (max-width: 600px)
+ {
+    #Title
+    {
+      text-align: center;
+      height: 100px;
+      width: 100%;
+      padding-top:13px;
+      background-color: rgb(240,240,240);
+    }
+
+    nav{
+      display: none;
+    }
+
+    ul{
+      width: 100%;
+      display:block;
+      height: 400px;
+      padding-left: 0;
+    }
+
+    li{
+     text-decoration: none;
+      list-style-type: none;
+      width: 100%;
+      height: 50px;
+    }
+    .dropdown{
+      width: 100%;
+    }
+    .topnav {
+      display: block;
+      overflow: hidden;
+      background-color: #333;
+      position: relative;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+    }
+    
+    .topnav a {
+      color: black;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block; 
+      text-align: center;
+    }
+    
+    .topnav a.icon {
+      background: white;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+
+    }
+    
+    .topnav a:hover {
+      background-color: black;
+      color: #ddd;
+    }
+    
+    .active {
+      background-color: #666;
+      color: white;
+    }
+  }

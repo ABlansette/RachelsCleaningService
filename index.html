@@ -37,6 +37,25 @@
             <li><a href = "">Jobs</a></li>
         </ul>
     </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">RMS</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="">Home</a>
+    <a href="#services">Services</a>
+    <a href="#quad">Quad</a>
+    <a href="#duo">Duo</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact">Reviews</a>
+    <a href="#contact">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     <div id = "home"></div>
     <div class = "MainRoom">
 
@@ -129,4 +148,14 @@
         <h6>Created by AB @2020</h6>
     </footer>
 </body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </html>
