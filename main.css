@@ -53,14 +53,14 @@ a:hover{
 .dropdown1 {
     position: relative;
     display: block;
-  }
+}
 
-  .dropdown2 {
+.dropdown2 {
     position: relative;
     display: block;
-  }
+}
   
-  .dropdown1 .dropdown-content {
+.dropdown1 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(220,220,220);
@@ -71,9 +71,9 @@ a:hover{
     z-index: 1;
     padding: 0;
     margin-left: 3px;
-  }
+}
 
-  .dropdown2 .dropdown-content {
+.dropdown2 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(220,220,220);
@@ -84,17 +84,17 @@ a:hover{
     z-index: 1;
     padding: 0;
     margin-left: 3px;
-  }
+}
   
-  .dropdown1:hover .dropdown-content {
+.dropdown1:hover .dropdown-content {
     display: block;
-  }
+}
 
-  .dropdown2:hover .dropdown-content {
+.dropdown2:hover .dropdown-content {
     display: block;
-  }
+}
 
-  .dropdown1 span{
+.dropdown1 span{
     color: black;
     border-color: black;
     text-decoration: none;
@@ -102,9 +102,9 @@ a:hover{
     padding: 18px 30px 20px 38px;
     background-color: rgb(200,200,200);
     border-style: solid;
-  }
+}
 
-  .dropdown2 span{
+.dropdown2 span{
     color: black;
     border-color: black;
     text-decoration: none;
@@ -112,43 +112,42 @@ a:hover{
     padding: 18px 30px 20px 30px;
     background-color: rgb(200,200,200);
     border-style: solid;
-  }
- .dropdown-content a
- {
+}
+.dropdown-content a{
     display: block;
     color: black;
     border-style: none;
     margin-left: 0px;
     float: middle;    
     text-align: center;
- }
+}
 
- .title:hover{
+.title:hover{
     border-color:white;
     background-color: white;
     transition: .5s;
- }
+}
 
  #home{
-    height: 600px;
-    background-image: url("Assets/outside.jpg");
-    background-position: center;
+  height: 600px;
+  background-image: url("Assets/outside.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- }
+}
 
- #contact{
-   height: 550px;
-   width: 100%;
-   background-color: lightgrey;
+#contact{
+  height: 550px;
+  width: 100%;
+  background-color: lightgrey;
   text-align: center;
   margin-bottom: 30px;
   margin-top: 0;
   padding-top: 30px;
- }
- #contact p{
-   margin-top: 40px;
- }
+}
+#contact p{
+  margin-top: 40px;
+}
 
  #contact h1 {
    text-align: center;
@@ -221,7 +220,7 @@ a:hover{
   .livingroom ul li{
     display: block;
     height: 30px;
-    width: 30%;
+    width: 250px;
     padding-left: 0;
     font-size: 20px;
     color: black;
@@ -237,7 +236,7 @@ a:hover{
     height:350px;
     border-style: solid;
     border-color: black;
-    background-image: url(Assets/LivingRoom3.JPG);
+    background-image: url(Assets/LivingRoom2.JPG);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -262,7 +261,7 @@ a:hover{
   .bedroom ul li{
     display: block;
     height: 30px;
-    width: 30%;
+    width: 250px;
     padding-left: 0;
     font-size: 20px;
     color: black;
@@ -307,7 +306,7 @@ a:hover{
   .bathroom ul li{
     display: block;
     height: 30px;
-    width: 30%;
+    width: 250px;
     padding-left: 0;
     font-size: 20px;
     color: black;
@@ -330,9 +329,98 @@ a:hover{
  html{
    scroll-behavior: smooth;
  }
+ .basicRoom{
+   display: none;
+ }
 
  @media only screen and (max-width: 600px)
  {
+   #quad{
+     display: none;
+   }
+
+   #duo h1{
+     Display: none;
+   }
+
+   #duo{
+     display: block;
+   }
+
+   .bathroom{
+     width: 100%;
+     height: 500px;
+   }
+
+   .bedroom{
+     width: 100%;
+     height: 500px;
+   }
+
+   .livingroom{
+     width: 100%;
+     height: 500px;
+   }
+
+   .bathroom ul li{
+    width: 250px;
+    height: 30px;
+  }
+
+  .bedroom ul li{
+    width: 250px;;
+    height: 50px;
+  }
+
+  .livingroom ul li{
+    width: 250px;
+    height: 50px;
+  }
+
+   .sections{
+     width: 100%;
+     display: block;
+     height: 1000px;
+   }
+
+  /* .basicRoom{
+    display: block;
+    Height: 700px;
+    border-style: double;
+  }
+  .basicRoom h2{
+    background-color: #eee;
+    color: black;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .basicRoom ul{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .basicRoom li{
+    padding-left: 0px;
+  }
+  
+  .basicRoom #mainroom2{
+    background-image: url("Assets/livingRoom.JPG");
+    background-size: cover;
+  }
+  .basicRoom #bathroom2{
+    background-image: url("Assets/bathroom.JPG");
+    background-size: cover;
+  }
+  .basicRoom #bedroom2{
+    background-image: url("Assets/livingRoom.JPG");
+    background-size: cover;
+  } */
     #Title
     {
       text-align: center;
@@ -340,6 +428,13 @@ a:hover{
       width: 100%;
       padding-top:13px;
       background-color: rgb(240,240,240);
+    }
+
+    .bathroom ul li{
+      display: block;
+      height: 50px;
+      width: 50%;
+      margin-bottom: 5px;
     }
 
     nav{
