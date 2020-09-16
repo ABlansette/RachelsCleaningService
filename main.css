@@ -185,7 +185,7 @@ a:hover{
    height:450px;
    border-style: solid;
    border-color: black;
-   background-image: url(Assets/RealBedroom.jpg);
+   background-image: url(Assets/livingRoom.JPG);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -236,7 +236,7 @@ a:hover{
     height:450px;
     border-style: solid;
     border-color: black;
-    background-image: url(Assets/LivingRoom.JPG);
+    background-image: url(Assets/RealBedroom.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
