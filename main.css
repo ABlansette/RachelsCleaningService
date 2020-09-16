@@ -50,7 +50,7 @@ a:hover{
     background-color: white;
     transition:1s;
 }
-.dropdown1 {
+/* .dropdown1 {
     position: relative;
     display: block;
 }
@@ -120,7 +120,7 @@ a:hover{
     margin-left: 0px;
     float: middle;    
     text-align: center;
-}
+} */
 
 .title:hover{
     border-color:white;
@@ -182,10 +182,10 @@ a:hover{
  .livingroom{
    flex: 50%;
    display: block;
-   height:350px;
+   height:450px;
    border-style: solid;
    border-color: black;
-   background-image: url(Assets/LivingRoom3.JPG);
+   background-image: url(Assets/RealBedroom.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -233,10 +233,10 @@ a:hover{
   .bedroom{
     flex: 50%;
     display: block;
-    height:350px;
+    height:450px;
     border-style: solid;
     border-color: black;
-    background-image: url(Assets/LivingRoom2.JPG);
+    background-image: url(Assets/LivingRoom.JPG);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -275,13 +275,14 @@ a:hover{
   .bathroom{
     width: 100%;
     display: block;
-    height:350px;
+    height:450px;
     border-style: solid;
     border-color: black;
-    background-image: url(Assets/bathroom.JPG);
+    background-image: url(Assets/RealBathroom.jpeg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   margin-top: 100px;
   }
 
   .bathroom h2{
@@ -349,17 +350,18 @@ a:hover{
 
    .bathroom{
      width: 100%;
-     height: 500px;
+     height: 600px;
+     margin-top: 0px;
    }
 
    .bedroom{
      width: 100%;
-     height: 500px;
+     height: 600px;
    }
 
    .livingroom{
      width: 100%;
-     height: 500px;
+     height: 600px;
    }
 
    .bathroom ul li{
@@ -380,7 +382,7 @@ a:hover{
    .sections{
      width: 100%;
      display: block;
-     height: 1000px;
+     height: 1200px;
    }
 
   /* .basicRoom{
@@ -494,5 +496,8 @@ a:hover{
     .active {
       background-color: #666;
       color: white;
+    }
+    html{
+      scroll-behavior: smooth;
     }
   }
